@@ -1,0 +1,23 @@
+/* Estilos exclusivos para Android */
+.titulo {
+  color: #3DDC84;
+  font-size: 18;
+  font-weight: bold;
+}
+.card {
+  background-color: #f5f5f5;
+  border-radius: 4;
+  margin: 8;
+  padding: 12;
+}
+.btn {
+  background-color: #3DDC84;
+  color: white;
+  margin: 8;
+  border-radius: 4;
+}
+.sidedrawer-list-item {
+  padding: 16;
+  color: #3DDC84;
+  font-size: 16;
+}
