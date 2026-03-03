@@ -1,0 +1,13 @@
+<ActionBar title="Noticias"></ActionBar>
+<StackLayout>
+  <Label [text]="'Plataforma: ' + plataforma" class="titulo"></Label>
+
+  <ListView [items]="noticias" class="list-group">
+    <ng-template let-item="item">
+      <StackLayout class="card" (tap)="verDetalle(item)">
+        <Label [text]="item.titulo" class="titulo"></Label>
+        <Label [text]="item.categoria" class="body"></Label>
+      </StackLayout>
+    </ng-template>
+  </ListView>
+</StackLayout>
