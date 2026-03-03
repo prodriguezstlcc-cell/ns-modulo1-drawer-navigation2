@@ -1,0 +1,17 @@
+<GridLayout rows="auto *">
+  <StackLayout class="sidedrawer-header">
+    <Label text="Mi App" class="sidedrawer-header-brand"></Label>
+  </StackLayout>
+  <ScrollView row="1">
+    <StackLayout class="sidedrawer-content">
+      <Label text="🏠 Inicio"
+        [nsRouterLink]="['/home']"
+        class="sidedrawer-list-item">
+      </Label>
+      <Label text="📰 Noticias"
+        [nsRouterLink]="['/noticias']"
+        class="sidedrawer-list-item">
+      </Label>
+    </StackLayout>
+  </ScrollView>
+</GridLayout>
