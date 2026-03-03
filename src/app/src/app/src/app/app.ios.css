@@ -1,0 +1,23 @@
+/* Estilos exclusivos para iOS */
+.titulo {
+  color: #007AFF;
+  font-size: 18;
+  font-weight: bold;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 10;
+  margin: 8;
+  padding: 12;
+}
+.btn {
+  background-color: #007AFF;
+  color: white;
+  margin: 8;
+  border-radius: 10;
+}
+.sidedrawer-list-item {
+  padding: 16;
+  color: #007AFF;
+  font-size: 16;
+}
